@@ -96,10 +96,6 @@
       
       <!-- reward -->
       
-      <div id="reward-btn">
-        打赏
-      </div>
-      
     </div>
     
     
@@ -118,55 +114,6 @@
         
     <footer class="article-footer">
       
-          
-<div class="share-btn">
-      <span class="share-sns share-outer">
-        <i class="ri-share-forward-line"></i>
-        分享
-      </span>
-      <div class="share-wrap">
-        <i class="arrow"></i>
-        <div class="share-icons">
-          
-          <a class="weibo share-sns" href="javascript:;" data-type="weibo">
-            <i class="ri-weibo-fill"></i>
-          </a>
-          <a class="weixin share-sns wxFab" href="javascript:;" data-type="weixin">
-            <i class="ri-wechat-fill"></i>
-          </a>
-          <a class="qq share-sns" href="javascript:;" data-type="qq">
-            <i class="ri-qq-fill"></i>
-          </a>
-          <a class="douban share-sns" href="javascript:;" data-type="douban">
-            <i class="ri-douban-line"></i>
-          </a>
-          <!-- <a class="qzone share-sns" href="javascript:;" data-type="qzone">
-            <i class="icon icon-qzone"></i>
-          </a> -->
-          
-          <a class="facebook share-sns" href="javascript:;" data-type="facebook">
-            <i class="ri-facebook-circle-fill"></i>
-          </a>
-          <a class="twitter share-sns" href="javascript:;" data-type="twitter">
-            <i class="ri-twitter-fill"></i>
-          </a>
-          <a class="google share-sns" href="javascript:;" data-type="google">
-            <i class="ri-google-fill"></i>
-          </a>
-        </div>
-      </div>
-</div>
-
-<div class="wx-share-modal">
-    <a class="modal-close" href="javascript:;"><i class="ri-close-circle-line"></i></a>
-    <p>扫一扫，分享到微信</p>
-    <div class="wx-qrcode">
-      <img src="//api.qrserver.com/v1/create-qr-code/?size=150x150&data=http://yoursite.com/2020/03/11/test-my-site-1/" alt="微信分享二维码">
-    </div>
-</div>
-
-<div id="share-mask"></div>
-      
       
 
     </footer>
@@ -178,7 +125,7 @@
   <nav class="article-nav">
     
       <a href="/2020/03/11/first-paper/" class="article-nav-link">
-        <strong class="article-nav-caption">上一篇</strong>
+        <strong class="article-nav-caption">Newer posts</strong>
         <div class="article-nav-title">
           
             first paper
@@ -188,7 +135,7 @@
     
     
       <a href="/2020/03/11/test-my-site/" class="article-nav-link">
-        <strong class="article-nav-caption">下一篇</strong>
+        <strong class="article-nav-caption">Older posts</strong>
         <div class="article-nav-title">test_my_site</div>
       </a>
     
@@ -262,15 +209,10 @@
     <ul class="list-inline">
       <li>
         &copy;
-        2015-2020
+        2020
         John Doe
       </li>
       <li>
-        
-        Powered by
-        
-        
-        <a href="https://hexo.io" target="_blank">Hexo</a> Theme <a href="https://github.com/Shen-Yu/hexo-theme-ayer" target="_blank">Ayer</a>
         
       </li>
     </ul>
@@ -315,7 +257,7 @@
     </li>
     
     <li class="nav-item">
-      <a class="nav-item-link" href="/archives">归档</a>
+      <a class="nav-item-link" href="/archives">archives</a>
     </li>
     
     <li class="nav-item">
@@ -327,11 +269,7 @@
     </li>
     
     <li class="nav-item">
-      <a class="nav-item-link" href="/tags/%E6%97%85%E8%A1%8C/">旅行</a>
-    </li>
-    
-    <li class="nav-item">
-      <a class="nav-item-link" href="http://shenyu-vip.lofter.com" target="_blank" rel="noopener">摄影</a>
+      <a class="nav-item-link" href="/tags/%E6%97%85%E8%A1%8C/">Travel</a>
     </li>
     
     <li class="nav-item">
@@ -371,16 +309,6 @@
   <p class="reward-p"><i class="ri-cup-line"></i>请我喝杯咖啡吧~</p>
   <div class="reward-box">
     
-    <div class="reward-item">
-      <img class="reward-img" src="/images/alipay.jpg">
-      <span class="reward-type">支付宝</span>
-    </div>
-    
-    
-    <div class="reward-item">
-      <img class="reward-img" src="/images/wechat.jpg">
-      <span class="reward-type">微信</span>
-    </div>
     
   </div>
 </div>
@@ -552,6 +480,30 @@
     viewer_init()
 </script>
 
+
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+      tex2jax: {
+          inlineMath: [ ['$','$'], ["\\(","\\)"]  ],
+          processEscapes: true,
+          skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code']
+      }
+  });
+
+  MathJax.Hub.Queue(function() {
+      var all = MathJax.Hub.getAllJax(), i;
+      for(i=0; i < all.length; i += 1) {
+          all[i].SourceElement().parentNode.className += ' has-jax';
+      }
+  });
+</script>
+
+<script src="https://cdn.jsdelivr.net/npm/mathjax@2.7.6/unpacked/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+<script>
+  var ayerConfig = {
+    mathjax: true
+  }
+</script>
 
 
 
